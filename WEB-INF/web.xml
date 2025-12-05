@@ -1,0 +1,31 @@
+<web-app>
+    <!-- registfavoritefood.jsp -->
+    <servlet>
+        <servlet-name>registfavoritefood</servlet-name>
+        <jsp-file>/registfavoritefood.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registfavoritefood</servlet-name>
+        <url-pattern>/registfavoritefood</url-pattern>
+    </servlet-mapping>
+
+    <!-- FavoriteFoodServlet -->
+    <servlet>
+        <servlet-name>FoodServlet</servlet-name>
+        <servlet-class>FavoriteFoodServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FoodServlet</servlet-name>
+        <url-pattern>/FavoriteFoodServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- favoritefood.jsp -->
+    <servlet>
+        <servlet-name>favoritefood</servlet-name>
+        <jsp-file>/favoritefood.jsp</jsp-file>
+    </servlet>
+    <url-mapping>
+        <servlet-name>favoritefood</servlet-name>
+        <url-pattern>/favoritefood</url-pattern>
+    </url-mapping>
+</web-app>
