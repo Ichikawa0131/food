@@ -24,8 +24,8 @@
         <servlet-name>favoritefood</servlet-name>
         <jsp-file>/favoritefood.jsp</jsp-file>
     </servlet>
-    <url-mapping>
+    <servlet-mapping>
         <servlet-name>favoritefood</servlet-name>
         <url-pattern>/favoritefood</url-pattern>
-    </url-mapping>
+    </servlet-mapping>
 </web-app>
